@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+  color: rgb(59, 59, 59);
+}
+
+/*nav*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(49, 49, 49);
+  padding: 10px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.navlinks ul {
+  align-items: center;
+  list-style: none;
+  display: flex;
+}
+
+.navlinks li {
+  padding: 5px 10px;
+}
+
+.navlinks i {
+  font-size: 30px;
+  color: rgb(133, 133, 133);
+}
+
+.boton {
+  text-decoration: none;
+  color: rgb(0, 87, 0);
+  border: 1px solid rgb(0, 87, 0);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/*header*/
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  width: 80%;
+  margin: 15px auto;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 20px;
+}
+
+.fondo {
+  background-image: url(img/fondo.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.foto-perfil {
+  position: relative;
+  bottom: 120px;
+  padding-left: 20px;
+  margin-bottom: -120px;
+}
+
+.foto-perfil img {
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 50%;
+}
+
+.foto-perfil i {
+  font-size: 20px;
+  color: rgb(59, 59, 59);
+  position: relative;
+  bottom: 25px;
+}
+
+.header-izq {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.header-texto h1,
+.header-texto p {
+  margin-bottom: 5px;
+}
+
+.header-texto a {
+  text-decoration: none;
+  color: rgb(77, 121, 255);
+}
+
+.header-botones {
+  padding: 10px 0 15px 0;
+}
+
+.boton-azul {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: rgb(101, 139, 255);
+  color: white;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.boton-gris {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: rgb(230, 230, 230);
+  color: rgb(133, 133, 133);
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.header-der {
+  margin: auto 10px;
+}
+
+.logos-edu {
+  align-items: center;
+  padding: 25px 50px;
+}
+
+.logos-edu img {
+  height: 70px;
+  width: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/*section*/
+
+section {
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+section .row {
+  padding: 25px;
+}
+
+.texto1 h1 {
+  color: #333;
+}
+
+.experiencia {
+  display: flex;
+}
+
+.texto2 h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.texto2 img {
+  width: 50px;
+  height: auto;
+}
+
+.experiencia-texto {
+  padding: 0 20px;
+}
+
+.experiencia-texto h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.texto-chico {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.texto-gris {
+  color: rgb(170, 170, 170);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.fa-plus {
+  display: block;
+  margin-left: 33px;
+  margin-bottom: 10px;
+}
+
+.iconos-der .fa-trash {
+  margin-left: 10px;
+}
